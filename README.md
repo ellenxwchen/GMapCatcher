@@ -7,6 +7,13 @@ ROS Support:
 Implemented a listener and subscriber to be able to see the coordinates through the terminal.
 The program subscribes to the GPS node (which sends coordinates from the GPS on the rover), and automatically uploads the markers onto the map.
 
+To see / delete the markers:
+(in home repository)
+
+ ```
+ $cd .GMapCatcher
+ $gedit markers
+ ```
 
 Files Modified: fileUtils.py, maps.py
 
