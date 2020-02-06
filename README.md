@@ -1,3 +1,16 @@
+## Custom Map GUI with ROS Support ##
+Implemented rover tracking by allowing only 5 markers (marking the rover's GPS coordinates) on the map at one time. Now allows for permanent markers as well - will not be deleted. 
+
+
+ROS Support:
+
+Implemented a listener and subscriber to be able to see the coordinates through the terminal.
+The program subscribes to the GPS node (which sends coordinates from the GPS on the rover), and automatically uploads the markers onto the map.
+
+
+Files Modified: fileUtils.py, maps.py
+
+Files Added: listener.py
 ## Overview ##
 
 GMapCatcher is an offline maps viewer. It can display maps from many providers such as:
